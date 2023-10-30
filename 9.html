@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .button {
+            background-color: #af4c4c;
+            width: 200px;
+            height: auto;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #bbbbbb;
+            width: 100%;
+            z-index: 1;
+            overflow-y: scroll;
+            height: 100px;
+            padding: 10px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="button">Hover Over Me</button>
+        <div class="dropdown-content">
+            <p>Option 1</p>
+            <p>Option 2</p>
+            <p>Option 3</p>
+            <p>Option 4</p>
+            <p>Option 5</p>
+            <p>Option 6</p>
+            <p>Option 7</p>
+            <p>Option 8</p>
+            <p>Option 9</p>
+            <p>Option 10</p>
+        </div>
+    </div>
+</body>
+</html>
